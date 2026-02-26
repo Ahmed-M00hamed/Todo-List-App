@@ -16,7 +16,7 @@ function Login() {
 
         if (user) {
             localStorage.setItem("currentUser", JSON.stringify(user));
-            navigate("/");
+            window.location.href = "/";
         } else {
             alert("DInvalid email or password");
         }
@@ -37,10 +37,11 @@ function Login() {
                 placeholder="Enter your password"
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <button 
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline  cursor-pointer" 
+            <button
+                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline  cursor-pointer"
                 type="submit"
-                >LogIn</button>
+                onClick={handleLogin}
+            >LogIn</button>
             <p
                 className="mt-4 text-sm text-gray-600">
                 Don't have an account? <Link to="/register" className="text-blue-700 underline">Create account</Link>

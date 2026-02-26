@@ -16,9 +16,9 @@ function Login() {
 
         if (user) {
             localStorage.setItem("currentUser", JSON.stringify(user));
-            window.location.href = "/";
+            navigate("/");
         } else {
-            alert("DInvalid email or password");
+            alert("Invalid email or password");
         }
     };
 

@@ -1,4 +1,4 @@
-import "./Loader.css";
+import "./loader.css";
 function PageLoader() {
     return (
         <div className="loader-overlay">

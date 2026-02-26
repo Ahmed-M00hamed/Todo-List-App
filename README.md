@@ -1,27 +1,50 @@
-# 🚀 React Todo App
+# 📝 React Todo List App (Authentication Version)
 
-A modern and responsive Todo Application built with React.
-Manage your daily tasks بسهولة مع واجهة بسيطة وسريعة.
+A modern Todo List application built with **React + Vite** including a simple authentication system.
+
+---
+
+## 🔐 Authentication Required
+
+This application uses a client-side authentication system.
+
+⚠️ Users must register first before accessing the main Todo page.
+
+---
+
+### 🔄 How It Works
+
+- New users create an account via the **Register** page.
+- After registration, users can log in.
+- The home page is protected using React Router.
+- Each user has their own personal todo list.
+- Data is stored in LocalStorage.
+- Logout functionality is implemented.
 
 ---
 
 ## ✨ Features
 
-✅ Add tasks
-✅ Delete tasks
-✅ Mark tasks as completed
-✅ Local Storage persistence
-✅ Responsive Design
-✅ Clean UI
+- ✅ User Registration
+- ✅ User Login & Logout
+- ✅ Protected Routes
+- ✅ Add Tasks
+- ✅ Edit Tasks
+- ✅ Delete Tasks
+- ✅ Mark as Completed
+- ✅ Per-User Data Storage
+- ✅ Responsive Design
+- ✅ Clean UI
 
 ---
 
 ## 🛠️ Technologies Used
 
--React JS
--CSS3
--JavaScript (ES6)
--Local Storage
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
+- LocalStorage
 
 ---
 
@@ -48,7 +71,7 @@ Manage your daily tasks بسهولة مع واجهة بسيطة وسريعة.
 git clone https://github.com/Ahmed-M00hamed/Todo-List-App.git
 cd Todo-List-App
 npm install
-npm start
+npm run dev
 ```
 
 ---

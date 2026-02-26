@@ -11,7 +11,7 @@ function TodoItem({ todo, toggleComplete, deleteTodo, startEdit }) {
                     onChange={() => toggleComplete(todo.id)}
                     className="mr-2"
                 />
-                <span className={`${todo.completed ? "line-through text-gray-400" : ""} max-w-58 md:max-w-72 lg:max-w-88  break-words `}>
+                <span className={`${todo.completed ? "line-through text-gray-400" : ""} max-w-58 md:max-w-72 lg:max-w-88  wrap-break-word `}>
                     {todo.text}
                 </span>
             </div>

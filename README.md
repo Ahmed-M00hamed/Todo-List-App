@@ -1,26 +1,27 @@
-# 📝 Todo List App
+# 🚀 React Todo App
 
-A modern and responsive Todo List application built with **React + Vite + Tailwind CSS**.
-
-## 🚀 Features
-
-- ➕ Add new todos
-- ✏️ Edit todos (inside the same input)
-- ❌ Delete todos
-- ✅ Mark as completed
-- 🔍 Filter (All / Completed / Incomplete)
-- 💾 LocalStorage support (data saved automatically)
-- 🗑 Clear All button (appears when 2+ todos exist)
-- 🎨 Styled with Tailwind CSS
+A modern and responsive Todo Application built with React.
+Manage your daily tasks بسهولة مع واجهة بسيطة وسريعة.
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Features
 
-- React
-- Vite
-- Tailwind CSS
-- LocalStorage API
+✅ Add tasks
+✅ Delete tasks
+✅ Mark tasks as completed
+✅ Local Storage persistence
+✅ Responsive Design
+✅ Clean UI
+
+---
+
+## 🛠️ Technologies Used
+
+* React JS
+* CSS3
+* JavaScript (ES6)
+* Local Storage
 
 ---
 
@@ -31,50 +32,23 @@ A modern and responsive Todo List application built with **React + Vite + Tailwi
 
 ---
 
-## ⚙️ Installation
+## 🚀 Live Demo
 
-Clone the repository:
+<p align="center">
+  <a href="https://todo-list-app-beta-peach.vercel.app">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xIM8bOVkC52DL5b6ffHpJf8Gj8RVLEctoA&s">
+  </a>
+</p>
+
+---
+
+## 📂 Installation
 
 ```bash
 git clone https://github.com/Ahmed-M00hamed/Todo-List-App.git
-```
-
-Go to project folder:
-
-```bash
 cd Todo-List-App
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
----
-
-## 🌐 Live Demo
-
-(ضع هنا رابط الفيرسل أو النيتلايف لما ترفعه)
-
----
-
-## 📂 Project Structure
-
-```
-src/
- ├── components/
- │    ├── TodoInput.jsx
- │    ├── TodoItem.jsx
- │    └── Filter.jsx
- ├── App.jsx
- └── main.jsx
+npm start
 ```
 
 ---
@@ -82,7 +56,22 @@ src/
 ## 👨‍💻 Author
 
 Ahmed Mohamed
+<p align="center">
+  <a href="https://github.com/Ahmed-M00hamed">
+   GitHub
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYdCZhbVNuoVDpKYkx1pDRQey7spXdqk9Oxg&s">
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/ahmed-mohamed-442886230/">
+   LinkedIn
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png">
+  </a>
+</p>
+
 
 ---
 
-⭐ If you like this project, give it a star on GitHub!
+## ⭐ Support
+
+If you like this project, please give it a star ⭐

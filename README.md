@@ -35,7 +35,7 @@ Manage your daily tasks بسهولة مع واجهة بسيطة وسريعة.
 ## 🚀 Live Demo
 
 <p align="center">
-  <a href="https://todo-list-app-beta-peach.vercel.app">
+  <a href="https://todo-list-app-beta-peach.vercel.app" target="_blank">
     <img src="./public/Live.png">
   </a>
 </p>
@@ -57,7 +57,7 @@ npm start
 
 <div style="display:flex; align-items:center; gap:15px;">
 
-<img src="https://avatars.githubusercontent.com/Ahmed-M00hamed" width="80" style="border-radius:50%;" />
+<img src="https://avatars.githubusercontent.com/Ahmed-M00hamed" width="100" style="border-radius:50%;" />
 
 <div>
         <h3 style="margin:0;">Ahmed Mohamed</h3>

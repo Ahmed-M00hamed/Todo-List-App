@@ -18,17 +18,17 @@ Manage your daily tasks بسهولة مع واجهة بسيطة وسريعة.
 
 ## 🛠️ Technologies Used
 
-* React JS
-* CSS3
-* JavaScript (ES6)
-* Local Storage
+-React JS
+-CSS3
+-JavaScript (ES6)
+-Local Storage
 
 ---
 
 ## 📸 Screenshots
 
-![App Screenshot(1)](./public/screenshot(1).png)
-![App Screenshot(2)](./public/screenshot(2).png)
+![App Screenshot(1)](<./public/screenshot(1).png>)
+![App Screenshot(2)](<./public/screenshot(2).png>)
 
 ---
 
@@ -36,7 +36,7 @@ Manage your daily tasks بسهولة مع واجهة بسيطة وسريعة.
 
 <p align="center">
   <a href="https://todo-list-app-beta-peach.vercel.app">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xIM8bOVkC52DL5b6ffHpJf8Gj8RVLEctoA&s">
+    <img src="./public/Live.png">
   </a>
 </p>
 
@@ -55,20 +55,25 @@ npm start
 
 ## 👨‍💻 Author
 
-Ahmed Mohamed
-<p align="center">
-  <a href="https://github.com/Ahmed-M00hamed">
-   GitHub
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYdCZhbVNuoVDpKYkx1pDRQey7spXdqk9Oxg&s">
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.linkedin.com/in/ahmed-mohamed-442886230/">
-   LinkedIn
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png">
-  </a>
-</p>
+<div style="display:flex; align-items:center; gap:15px;">
 
+<img src="https://avatars.githubusercontent.com/Ahmed-M00hamed" width="80" style="border-radius:50%;" />
+
+<div>
+        <h3 style="margin:0;">Ahmed Mohamed</h3>
+
+<div style="display:flex; gap:10px; margin-top:8px;">
+        <a href="https://github.com/Ahmed-M00hamed" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
+        </a>
+        <a href="https://www.linkedin.com/in/ahmed-mohamed-442886230/" target="_blank">
+            <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin">
+        </a>
+    </div>
+
+  </div>
+
+</div>
 
 ---
 

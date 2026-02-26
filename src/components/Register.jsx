@@ -12,7 +12,7 @@ function Register() {
         const users = JSON.parse(localStorage.getItem("users")) || [];
 
         if (users.find((u) => u.email === email)) {
-            alert("الحساب موجود بالفعل");
+            alert("Email already exists.");
             return;
         }
 

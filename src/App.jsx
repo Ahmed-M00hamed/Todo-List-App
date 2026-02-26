@@ -13,6 +13,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route
+        
           path="/"
           element={currentUser ? <TodoApp /> : <Navigate to="/login" />}
         />

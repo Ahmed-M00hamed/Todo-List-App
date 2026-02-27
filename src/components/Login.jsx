@@ -23,7 +23,7 @@ function Login({ setCurrentUser }) {
     };
 
     return (
-        <form onSubmit={handleLogin} className="w-lg m-auto mt-50 p-5 border-1 border-gray-300 rounded flex flex-col items-center justify-center">
+        <form onSubmit={handleLogin} className="w-85 sm:w-lg m-auto mt-50  p-5 border-1 border-gray-300 rounded flex flex-col items-center justify-center">
             <h2 className="text-2xl font-bold mb-4 flex justify-center">Log in</h2>
             <input
                 className="mb-2 w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"

@@ -11,7 +11,7 @@ export default function LoaderWrapper({ children }) {
 
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 2000);
+        }, 800);
 
         return () => clearTimeout(timer);
     }, [location.pathname]);

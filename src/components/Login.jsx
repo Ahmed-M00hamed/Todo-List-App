@@ -40,7 +40,6 @@ function Login() {
             <button
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline  cursor-pointer"
                 type="submit"
-                onClick={handleLogin}
             >LogIn</button>
             <p
                 className="mt-4 text-sm text-gray-600">

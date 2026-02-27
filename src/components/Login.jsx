@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
-function Login() {
+function Login({ setCurrentUser }) {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
@@ -10,16 +10,16 @@ function Login() {
         e.preventDefault();
 
         const users = JSON.parse(localStorage.getItem("users")) || [];
-        const user = users.find(
-            (u) => u.email === email && u.password === password
-        );
+        const user = users.find(u => u.email === email && u.password === password);
 
-        if (user) {
-            localStorage.setItem("currentUser", JSON.stringify(user));
-            navigate("/");
-        } else {
+        if (!user) {
             alert("Invalid email or password");
+            return;
         }
+
+        localStorage.setItem("currentUser", JSON.stringify(user));
+        setCurrentUser(user); 
+        navigate("/");
     };
 
     return (

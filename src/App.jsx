@@ -4,6 +4,7 @@ import TodoApp from "./TodoApp";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import LoaderWrapper from "./components/Loader/LoaderWrapper";
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [currentUser, setCurrentUser] = useState(
@@ -30,6 +31,7 @@ function App() {
           element={currentUser ? <TodoApp onLogout={handleLogout} /> : <Navigate to="/login" />}
         />
       </Routes>
+      <Analytics />
     </LoaderWrapper>
   );
 }

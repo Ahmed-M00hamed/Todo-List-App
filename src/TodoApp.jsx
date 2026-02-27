@@ -66,7 +66,7 @@ function TodoApp() {
     });
 
     return (
-        <div className="max-w-sm lg:max-w-lg md:max-w-md mx-auto mt-50 p-5 bg-white rounded shadow">
+        <div className="max-w-sm lg:max-w-lg md:max-w-md mx-auto mt-50 p-5 bg-white border-1 border-gray-300  rounded">
             <button
                 onClick={handleLogout}
                 className="mb-4 bg-red-500 text-white px-3 py-1 rounded cursor-pointer hover:bg-red-600 transition-colors "
